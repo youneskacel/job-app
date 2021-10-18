@@ -1,0 +1,72 @@
+.container{
+    width : 70vw;
+    height : 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    border: 1px solid rgba(128, 128, 128, 0.171);
+    border-radius: 10px;
+    margin : 20px 0 ;
+    box-shadow: 6px 6px 20px -10px hsl(180, 8%, 52%);
+    background-color: rgba(241, 241, 241, 0.445);
+}
+.container_featured{
+    border : 2px solid rgba(255, 0, 0, 0.219) ;
+    width : 70vw;
+    height : 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 10px;
+    margin : 20px 0 ;
+    box-shadow: 6px 6px 20px -10px hsl(180, 8%, 52%);
+    background-color: rgba(241, 241, 241, 0.445);
+}
+.descriptions{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.details{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.postLoc{
+    font-size: 0.8em;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.leftPart{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin-right: 20px;
+}
+
+.newFeat {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom : 5px;
+}
+
+.roleLvl{
+    display: flex;
+    justify-content: space-evenly;
+    width : 200px;
+}
+
+.languages span{
+    margin : 0 8px;
+}
+.tools span{
+    margin : 0 8px;
+}
+
